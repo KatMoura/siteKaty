@@ -75,11 +75,20 @@ p{
 }
 
 
-@media screen and (min-width:300px) and (max-width: 200px){
+@media screen and (max-width:200px){
     .container{
-        max-width: 500px;
-        margin: 40px auto;
+        max-width: 50%;
+        margin: 100%;
         padding: 0 auto;
     }
 }
-    
+@media screen and (min-width:300px){
+    .container{    
+        max-width: 90%;
+        margin: 20%;
+        padding: 0 auto;
+        background-color: #dadad9;
+    }
+}
+
+

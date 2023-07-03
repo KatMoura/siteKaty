@@ -1,0 +1,89 @@
+body{
+    display: flexbox;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-width: 100px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 0 auto;
+    background-color: #f4f3ee;
+}
+form{
+    background-color: #ffffff;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    height: 100%;
+}
+header{
+    background-color: #05334c;
+    padding: 50px;
+}
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-right: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.fieldset{
+    align-items: center;
+    text-align: center;
+    margin-top: 1px;
+    border-radius: 25px;
+}
+
+.imagem {
+    max-width: 300px;
+}
+
+img {
+    float: left;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    gap: 70%;
+}
+button{
+    width: 150%;
+    margin-top: 0 auto;
+    padding: 20px;
+    background-color: #03476b;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover{
+    background-color:#052e45;
+}
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+p{
+    font-size: 36px;
+    
+}

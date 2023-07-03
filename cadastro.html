@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <section class="registro">
+        <h1>Cadastro de conta</h1>
+        <div class="container">
+            <form action="">
+                <input type="text" placeholder="Digite o Nome"><br><br>
+                <input type="email" placeholder="Digite seu E-mail"><br><br>
+                <input type="password" placeholder="Digite uma Senha"><br><br>
+                <select id="redirecionamento">
+                    <option value="paginaInicial.html">Professor</option>
+                    <option value="inicioCo.html">Coordenador</option>
+                </select>
+                <button type="button" onclick="redirecionar()">Registrar</button>
+                <script>
+                    function redirecionar() {
+                      var select = document.getElementById("redirecionamento");
+                      var opcaoSelecionada = select.value;
+                      if (opcaoSelecionada !== "") {
+                        window.location.href = opcaoSelecionada;
+                      }
+                    }
+                  </script>
+            </form>
+        </div>
+        <p>Já possui uma conta? <a href="site.html" class="salvar">Faça login</a></p>
+    </section>
+
+    
+</body>
+</html>
