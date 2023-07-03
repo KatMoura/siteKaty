@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil</title>
+    <link rel="stylesheet" href="editar.css">
+</head>
+<body>
+    <form action="">
+        <div class="container">
+            <fieldset class="pessoal">
+                <div class="dados">
+                    <h1>DADOS PESSOAIS</h1>
+                    <hr>
+                </div>
+                <div class="nome">
+                    <label for="">Nome:</label><br>
+                    <input type="text" name="nome" id="nome" required><br>
+                    <label for="">E-mail:</label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="">Telefone:</label><br>
+                    <input type="tel" name="telefone" id="telefone" required><br>
+                </div>
+            </fieldset><br>
+            <div class="endereco">
+                <fieldset>
+                    <div class="local">
+                        <h2>ENDEREÇO</h2>
+                        <hr>
+                    </div><br>
+                    <label for="">CEP:</label>
+                    <input type="tel" name="CEP" id="CEP" required>
+                    <p>Formato: "99999-999"</p><br>
+                    <label for="">Número:</label><br>
+                    <input type="number" name="numero" id="numero" required><br>
+                    <label for="">Complemento:</label><br>
+                    <input type="text" name="complemento" id="complemento" ><br>
+                    <label for="">Bairro:</label><br>
+                    <input type="text" name="bairro" id="bairro"required><br>
+                    <label for="id_cidade" title="Preenchimento Obrigatório">Cidade:</label><br>
+                    <input type="text" name="cidade" id="cidade" required><br><br>
+                </fieldset>
+            </div><br><br>
+            <a href="paginaInicial.html"><button type="button">Salvar Alterações</a></button>
+        </div>
+    </form>
+</body>
+</html>
